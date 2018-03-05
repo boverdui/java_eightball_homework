@@ -36,8 +36,9 @@ public class EightBallTest {
     }
 
     @Test
-    public void canRemoveAnswerFromList() {
+    public void canRemoveAnswerFromList(){
         myAnswers.removeAnswer("It is certain");
         assertEquals(2, myAnswers.getAnswerCount());
     }
+
 }

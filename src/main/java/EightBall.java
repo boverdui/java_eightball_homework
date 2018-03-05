@@ -5,7 +5,7 @@ public class EightBall {
 
     private ArrayList<String> answers;
 
-    public EightBall(ArrayList<String> answers) {
+    public EightBall(ArrayList<String> answers){
         this.answers = answers;
     }
 
